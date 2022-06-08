@@ -1,0 +1,222 @@
+*{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+    background-color: rgba(160, 177, 177, 0.534);
+}
+
+header p {
+    margin-left: 3em;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+nav a {
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgba(63, 63, 238, 0.966);
+}
+nav a:hover {
+    color:blue;
+}
+.main {
+    display: flex;
+    align-items: center;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-left: 10em;
+}
+.main h1 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+.main h2 {
+    color: bisque;
+    font-size: 3.4em;
+    font-weight: 500;
+}
+.main .title {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-bottom: 0.9em;
+}
+.btn {
+    color: aliceblue;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: blue;
+    font-size: 1.1em;
+    margin-bottom: 0.8em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.main .social {
+    margin-left: 0.3em;
+}
+.social .social-icons {
+    font-size: 1.3em;
+    color: white;
+    margin-right: 0.8em;
+}
+
+.services {
+    padding-top: 2em;
+}
+.services h2{
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.card {
+    flex-basis: 31%;
+    padding: 1em;
+    box-shadow: 0px 5px 10px rgb(1 1 1 /75%);
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 0.4em;
+}
+.card p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container .card .icon {
+    font-size: 7.5em;
+    text-align: center;
+}
+.projects {
+    background-color: rgba(47, 47, 155, 0.445);
+    margin-top: 3em;
+    padding-top: 1.5em;
+}
+.projects h2{
+    display: flex;
+    justify-content: center;
+}
+
+.card-project {
+    flex-basis: 31%;
+    border: 1px solid rgb(255, 255, 255);
+    
+    margin-top: 3.5%;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.card-project img {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+.info {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0.8em;
+}
+.card-project .info p{
+    margin-top: 0;
+}
+.small-icon {
+    padding-top: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+.card-project:hover {
+    transform: scale(1.1);
+}
+.card-project:hover img{
+    opacity: 0.7;
+}
+
+.contacts {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    background-color: aliceblue;
+    padding-bottom: 3em;
+}
+.contacts h2 {
+    display: flex;
+    justify-content: center;
+}
+.container-contacts {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+section .card-contacts {
+    flex-basis: 45%;
+    padding: 1em;
+    box-shadow: 0px 5px 10px rgb(1 1 1 /75%);
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.card-contacts:hover {
+    transform: scale(1.1);
+}
+.container-contacts .icon {
+    font-size: 7.5em;
+    text-align: center;
+}
+.card-contacts h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-bottom: 0.4em;
+}
+footer {
+    /* margin-top: 1.5em; */
+    background-color: rgba(160, 177, 177, 0.534);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+}
+footer .white {
+    color: white;
+    font-size: 1em;
+}
+footer .social-icons {
+    padding-right: 1em;
+    font-size: 1.5em;
+    color: black;
+}
